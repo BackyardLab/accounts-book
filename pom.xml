@@ -11,7 +11,7 @@
   <properties>
 	<accountsbook.version>1.0-SNAPSHOT</accountsbook.version>
 	<jdk.version>1.8</jdk.version>
-	<spring.version>4.2.9.RELEASE</spring.version>
+	<spring.version>4.2.5.RELEASE</spring.version>
 	<spring.security.version>4.2.2.RELEASE</spring.security.version>
 	<jstl.version>1.2</jstl.version>
 	<junit.version>4.12</junit.version>

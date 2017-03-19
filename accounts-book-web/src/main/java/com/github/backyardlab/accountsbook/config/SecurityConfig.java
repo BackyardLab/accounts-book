@@ -22,7 +22,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	}
 
 	@Override
-	protected void configure(HttpSecurity http) throws Exception {
+	protected void configure(HttpSecurity http) throws Exception {		
 		http.formLogin().loginPage("/login").defaultSuccessUrl("/accounts").and().rememberMe().and().httpBasic().and()
 				.authorizeRequests().antMatchers("/accounts").hasRole("USER")
 				.antMatchers(HttpMethod.POST, "/adminconsole").hasRole("ADMIN").antMatchers("/login").anonymous()

@@ -7,7 +7,7 @@ import org.springframework.context.annotation.FilterType;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
-@ComponentScan(basePackages={"com.github.backyardlab.accountsbook.core"},
+@ComponentScan(basePackages={"com.github.backyardlab.accountsbook.config"},
 excludeFilters={@Filter(type=FilterType.ANNOTATION, value=EnableWebMvc.class)})
 public class RootConfig {
 
